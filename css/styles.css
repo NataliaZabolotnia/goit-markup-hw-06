@@ -368,7 +368,7 @@ button {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url('../images/Dark-bg-mobile.jpg');
+    url('../images/dark-bg-mobile.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -417,7 +417,7 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url('../images/Dark-bg-mobile@2x.jpg');
+      url('../images/dark-bg-mobile@2x.jpg');
   }
 }
 
@@ -431,13 +431,12 @@ button {
       ),
       url('../images/dark-bg-tabl.jpg');
   }
-}
-
-.hero-title {
-  max-width: 496px;
-  margin-bottom: 36px;
-  font-size: 56px;
-  line-height: 1.07;
+  .hero-title {
+    max-width: 496px;
+    margin-bottom: 36px;
+    font-size: 56px;
+    line-height: 1.07;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1157px) and (min-resolution: 2x) {
   .hero {
